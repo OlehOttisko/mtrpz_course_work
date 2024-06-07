@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Калькулятор Української мови</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body class="body">
+<!--Шапка веб-сайту-->    
+    <div class="top">
+        <h3 class="headline">Українська мова</h3>
+        <div class="themes"><label for="options">Тема:</label>
+            <select id="options" name="options" class="cool-select">
+            <option value="option1" class="cool-option1">світла</option>
+            <option value="option2" class="cool-option2">темна</option>
+            </select>
+        </div>
+    </div>
+ <!--Основна частина-->   
+    <div class="main-container">
+        <h2 class="main-title">Українська мова - це легко</h2>
+        <h3 class="explanation">Введіть реченя, що хочете розібрати на частини мови</h3>
+        <div class="app-position">
+            <button class="cool-button">Розібрати</button>
+            <input class="cool-input" placeholder="Введіть ваше речення" >
+        </div>
+        <div class="cool-output">
+            Я завжди або прихожу вчасно, або запізнююсь<!--Тут буде розбір речення-->
+        </div>
+        <div class="disclamier">Є шанс що надана інформація не буде відповідати дійсності, адже українська мова дуже багата на слова,
+            у тому числі, на ті, які не мають очевидних відмінностей
+        </div>
+    </div>
+
+<div>
+   <table class="parts-of-speech">
+    <tr class="rows">
+        <td class="table-cell" id="verb">Дієслово</td>
+        <td class="table-cell" id="noun">Іменник</td>
+        <td class="table-cell" id="adverb">Прислівник</td>
+        <td class="table-cell" id="numeral">Числівник</td>
+        <td class="table-cell" id="pronoun">Займенник</td>
+    </tr>
+    <tr class="rows">
+        <td class="table-cell" id="preposition">Прийменник</td>
+        <td class="table-cell" id="conjunction">Сполучник</td>
+        <td class="table-cell" id="fraction">Частка</td>
+        <td class="table-cell" id="adjective">Прикметник</td>
+        <td class="table-cell" id="not-specified">Не визначено</td>
+    </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
