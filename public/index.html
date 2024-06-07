@@ -13,9 +13,9 @@
     <div class="top">
         <h3 class="headline">Українська мова</h3>
         <div class="themes"><label for="options">Тема:</label>
-            <select id="options" name="options" class="cool-select">
-            <option value="option1" class="cool-option1">світла</option>
-            <option value="option2" class="cool-option2">темна</option>
+            <select id="mode" name="options" class="cool-select">
+            <option value="light" class="cool-option1">світла</option>
+            <option value="dark" class="cool-option2">темна</option>
             </select>
         </div>
     </div>
@@ -24,10 +24,10 @@
         <h2 class="main-title">Українська мова - це легко</h2>
         <h3 class="explanation">Введіть реченя, що хочете розібрати на частини мови</h3>
         <div class="app-position">
-            <button class="cool-button">Розібрати</button>
-            <input class="cool-input" placeholder="Введіть ваше речення" >
+            <button class="cool-button" id="analyze">Розібрати</button>
+            <input class="cool-input" id="text" placeholder="Введіть ваше речення" >
         </div>
-        <div class="cool-output">
+        <div class="cool-output" id="output">
             Я завжди або прихожу вчасно, або запізнююсь<!--Тут буде розбір речення-->
         </div>
         <div class="disclamier">Є шанс що надана інформація не буде відповідати дійсності, адже українська мова дуже багата на слова,
