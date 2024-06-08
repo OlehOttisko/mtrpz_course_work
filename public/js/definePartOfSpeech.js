@@ -1,3 +1,23 @@
+import {
+    nounsEnds,
+    verbsEnds,
+    verbs,
+    adverbsPref,
+    adverbsEnds,
+    adverbs,
+    numeratorsPref,
+    numeratorsEnds,
+    numerators,
+    pronounsPref,
+    pronounsEnds,
+    pronouns,
+    prepositionsEnds,
+    prepositions,
+    conjunctives,
+    particles,
+    adjectivesEnds
+} from './data.js';
+
 'use strict';
 
 //function for comparing words with arrays
