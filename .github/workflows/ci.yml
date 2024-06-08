@@ -32,4 +32,7 @@ jobs:
       - name: Run definePartOfSpeech tests
         run: |
           npm install --save-dev assert
-          node definePartOfSpeech.test.js
+          node  public/js/definePartOfSpeech.test.js
+
+
+
